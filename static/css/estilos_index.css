@@ -1,4 +1,22 @@
 /* Utilities */
+/* mapa */
+#contenedor	{
+	position: relative;
+	margin: auto;
+	width: 524px;
+	height: 534px;
+	background-image: url(../dibujos/_grid.gif);
+}
+
+.efecto	{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.oculto	{
+	visibility: hidden;
+}
 body{
     background-image: -webkit-gradient( linear, left top,   left bottom,    color-stop(0, #E6C043), color-stop(1, #E85510));
     background-image: -o-linear-gradient(bottom, #E6C043 0%, #E85510 100%);
@@ -19,12 +37,81 @@ body{
     text-align: center;
 }
 
-.u-containerDefault{
-    width: 900px;
-    margin: 0 auto;
-
+.inforight{
+	padding-right: 55px;
+    float:right; 
+	width:40%
+}
+.infoleft{
+	padding-left:35px;
+    float:left; 
+	width:40%
 }
 
+.u-containerDefault{
+   overflow: hidden;
+   width: 100%;
+ /*  border: 1px solid #bbb;*/
+   border-bottom:1px solid #000000;
+   border-top:1px solid #000000;
+   
+   background:#FFFFFF;
+  
+   padding-bottom:10px;
+   padding-top:10px;
+   
+   margin: 0 auto;
+   padding-bottom:50px;
+
+}
+.u-containerDefault3{
+   overflow: hidden;
+   width: 100%;
+ /*  border: 1px solid #bbb;*/
+   border-bottom:1px solid #FCB712;
+   border-top:1px solid #FCB712;
+   
+   background:#FCB712;
+  
+   padding-bottom:10px;
+   padding-top:10px;
+   
+   margin: 0 auto;
+
+}
+.u-containerDefault2{
+   overflow: hidden;
+   width: 100%;
+ /*  border: 1px solid #bbb;*/
+   border-bottom:1px solid #CA4545;
+   border-top:1px solid #CA4545;
+   
+   background: #CA4545;
+  
+   padding-bottom:10px;
+   padding-top:10px;
+   
+   margin: 0 auto;
+
+}
+.video{
+   overflow: hidden;
+/*  margin:10px;*/
+  width: 520px;
+ /* margin-bottom:10px;*/
+  
+  
+
+}
+.video2{
+   overflow: hidden;
+  margin:15px; 
+  width: 520px;
+  /*margin-bottom:10px;*/ 
+  
+  
+
+}
 
 /* MainMenu */
 
@@ -62,17 +149,20 @@ body{
 
 
 .Header{
-    margin-top: 3.75em;
+   /* margin-top: 3.75em;*/
     background-image: url('../img/campaña.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     text-align: center;
     padding:1.2em 0;
+	height: 560px;
 }
 
 .Header-imageContainer{
     margin: 0;
+	 
+	
 }
 
 .Header-image{
@@ -82,17 +172,16 @@ body{
 
 .Header-name,
 .Header-link{
-    color: white;
-    text-shadow: 2px 2px 2px #52514D;
-    font-family: fantasy;
-
+    color: #000000;
+    text-shadow: 2px 2px 2px #919191;
+    font-family: bitter;
 }
 
 .Header-link{
-    font-size: 5.2em;
+    font-size: 3.2em;
     font-weight: bold;
     text-decoration: none;
-    text-shadow: 2px 2px 2px #52514D;
+    text-shadow: 2px 2px 2px #919191;
 
 }
 
