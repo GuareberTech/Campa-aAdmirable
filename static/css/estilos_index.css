@@ -62,7 +62,8 @@ body{
    
    margin: 0 auto;
    padding-bottom:50px;
-
+   height:743px;
+   
 }
 .u-containerDefault3{
    overflow: hidden;
@@ -407,4 +408,44 @@ button a:hover{
     border: none;
     color: white;
     padding: .5em 1em;
+}
+
+.button_agregar{
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.4, #FF0004), color-stop(1, #350000) );
+	/*background-image:none; */
+	border-width:1px;
+	border-style:solid;
+	border-color: #000000;
+	/*border: 1px solid;*/
+	color: #FF6769;
+
+	/*font-weight:bold;*/	 
+ 	font-family: Verdana, sans-serif, Arial;
+	width:auto;
+	padding:2px 4px;
+	cursor:pointer;
+	border-radius:3px;
+	padding:3px;
+	margin:2px;
+} 
+
+
+.button_agregar:hover{
+ 
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.4, #C00003), color-stop(1, #000000) );
+	/*background-image:none;*/
+	border-width:1px;
+	border-style:solid;
+	border-color:#000;
+	/*border: 1px solid;*/
+	color: #FFCECF;
+	/*font-weight:bold;*/	 
+ 	font-family: Verdana, sans-serif, Arial;
+	width:auto;
+	padding:2px 4px;
+	cursor:pointer;
+	border-radius:3px;
+	padding:3px;
+	margin:2px;
+	
 }
