@@ -9,3 +9,8 @@
   font-size: 3.0em;
   padding: 1em;
 }
+#main {
+  border:1px solid #EFEFEF;
+  background:#F9F9F9;
+  padding-bottom:50px;
+}
